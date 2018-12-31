@@ -2,23 +2,27 @@
   margin: 0;
   padding: 0; }
 
+body {
+  background-color: lightblue;
+  background-color: #C0E4FB; }
+
 .navlist {
   position: fixed;
   width: 100%;
+  background-color: lightblue;
   background-color: #C0E4FB; }
   .navlist li {
     display: inline-block;
-    margin-left: 50px;
     margin-top: 0; }
   .navlist li a {
     text-decoration: none; }
   .navlist .list {
-    padding-top: 25px;
-    padding-right: 25px;
     vertical-align: top;
-    font-size: 17px; }
+    font-weight: bold; }
+    .navlist .list a {
+      color: blue;
+      color: #04040C; }
   .navlist #navlogo {
-    width: 60px;
     height: auto;
     z-index: 10; }
 
@@ -30,5 +34,145 @@
 
 #navright {
   float: right; }
+
+#welcome-section {
+  background-color: lightblue;
+  background-color: #C0E4FB;
+  min-height: 80vh;
+  padding-top: 20vh;
+  text-align: center;
+  color: black;
+  color: #04040C; }
+  #welcome-section h3 {
+    line-height: 220%; }
+
+#projects {
+  background-color: lightgreen;
+  background: #DBFCE6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: darkblue;
+  color: #05073F; }
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 90%; }
+
+.project-tile {
+  display: inline-block;
+  border: solid lightgray 1px;
+  border: solid #c9c9c9 1px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: lightyellow;
+  background: rgba(246, 233, 203, 0.7); }
+
+@media (min-width: 551px) {
+  #navlogo {
+    width: 60px; }
+
+  .project-tile {
+    height: 25vh;
+    width: 34vw;
+    padding: 3vw; }
+    .project-tile img {
+      width: 15vw;
+      height: auto; }
+    .project-tile a {
+      text-decoration: none;
+      color: purple;
+      color: #4b0369; }
+
+  .list {
+    padding-right: 25px;
+    font-size: 17px;
+    padding-top: 25px; }
+
+  .navlist li {
+    margin-left: 50px; }
+
+  #jodelle, #product {
+    float: left; }
+
+  #tribute, #tech {
+    margin-left: 5vw; }
+
+  #connect {
+    display: table; }
+
+  #about {
+    width: 55vw;
+    float: left; }
+
+  #socials {
+    width: 30vw;
+    float: right; }
+    #socials h3 {
+      padding: 5px; }
+    #socials img {
+      width: 50px;
+      padding: 5px; }
+
+  #welcome-section h3 {
+    display: inline-block; }
+
+  #about img {
+    width: 30%; } }
+@media (max-width: 950px) {
+  .project-tile {
+    height: 45vh;
+    width: 80vw;
+    padding: 5vw; }
+    .project-tile img {
+      width: 50vw;
+      height: auto; }
+
+  #tribute, #tech {
+    margin-left: 0vw; } }
+@media (max-width: 550px) {
+  #navlogo {
+    width: 30px; }
+
+  .list {
+    padding-right: 15px;
+    font-size: 10px;
+    padding-top: 15px; }
+
+  .navlist li {
+    margin-left: 20px; }
+
+  #about, #socials {
+    width: 90%; }
+
+  #about img {
+    width: 25%; }
+
+  #socials h3 {
+    padding: 3px; }
+  #socials img {
+    width: 20px;
+    padding: 3px; } }
+#connect {
+  background-color: lightpurple;
+  background-color: #edbcfc;
+  width: 100%;
+  text-align: center;
+  display: inline-block; }
+
+#about, #socials {
+  margin: 5px;
+  padding: 15px;
+  display: inline-block; }
+
+#about img {
+  border-radius: 20px; }
+
+footer {
+  padding: 5px;
+  text-align: center;
+  margin: 10px; }
 
 /*# sourceMappingURL=index.css.map */
