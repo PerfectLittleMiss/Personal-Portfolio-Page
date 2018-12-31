@@ -6,6 +6,9 @@ body {
   background-color: lightblue;
   background-color: #C0E4FB; }
 
+#navbar {
+  position: fixed; }
+
 .navlist {
   position: fixed;
   width: 100%;
